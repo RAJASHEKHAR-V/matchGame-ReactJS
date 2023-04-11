@@ -1,0 +1,26 @@
+.tab-item {
+  width: 20%;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-button {
+  min-height: 30px;
+  min-width: 70px;
+  max-height: 35px;
+  max-width: 100px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.active-tab {
+  border-bottom: 2px solid #fec653;
+  color: #fec653;
+}
